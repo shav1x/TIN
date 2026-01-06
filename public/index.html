@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shavyrov's Tech Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav id="nav-bar">
+    <div class="logo">Shavyrov's Tech Market</div>
+    <div>
+            <span style="margin-right: 15px; border-right: 1px solid #666; padding-right: 10px;">
+                <button onclick="setLanguage('en')" style="padding:2px 5px; font-size:0.8em;">EN</button>
+                <button onclick="setLanguage('pl')" style="padding:2px 5px; font-size:0.8em;">PL</button>
+                <button onclick="setLanguage('ua')" style="padding:2px 5px; font-size:0.8em;">UA</button>
+            </span>
+
+        <button onclick="handleHomeClick()" id="nav-products">Products</button>
+
+        <span id="guest-nav">
+                <button onclick="renderLogin()" id="nav-login">Login</button>
+                <button onclick="renderRegister()" id="nav-register">Register</button>
+            </span>
+        <span id="user-nav" style="display: none;">
+                <span id="current-username" style="margin-right: 10px;"></span>
+                <button onclick="logout()" id="nav-logout">Logout</button>
+            </span>
+    </div>
+</nav>
+
+<div id="app">
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
