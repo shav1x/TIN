@@ -18,8 +18,8 @@ const products = [
     { name: 'Wireless Mouse', description: 'Ergonomic 2.4GHz mouse', price: 25.50, stock: 50 },
     { name: 'Mechanical Keyboard', description: 'RGB Backlit Blue Switches', price: 79.99, stock: 0 },
     { name: 'Thermal Paste', description: 'High quality thermal paste', price: 36.00, stock: 4 },
-    { name: 'PC build', description: 'Ready-to-play gaming PC', price: 5500.00, stock: 2 },
     { name: 'Headset', description: 'Gaming headset. You will hear everything!', price: 200.00, stock: 0 },
+    { name: 'PC build', description: 'Ready-to-play gaming PC', price: 5500.00, stock: 2 },
     { name: 'RTX 5090', description: 'High-end graphic card for any purpose possible', price: 3750.00, stock: 21 }
 ];
 
