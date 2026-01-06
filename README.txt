@@ -1,4 +1,4 @@
-npm install express sqlite3 bcrypt cors
+npm install
 node database/init_db.js
 node database/seed_data.js
 node server.js
